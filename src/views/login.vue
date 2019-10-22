@@ -10,7 +10,6 @@
     <van-button type="default" v-on:click="check">登陆</van-button>
   </div>
 </template>
-
 <script>
 import Vue from "vue";
 import axios from "axios";

@@ -27,27 +27,47 @@ export default new Router({
     {
       path: '/login',
       name: 'login',
-      component: Login
+      component: Login,
+      meta:{
+        // 页面标题title
+        title: '登陆'
+    }
     },
     {
       path: '/register',
       name: 'register',
-      component: register
+      component: register,
+      meta:{
+        // 页面标题title
+        title: '录入'
+    }
     },
     {
       path: '/submit',
       name: 'submit',
-      component: submit
+      component: submit,
+      meta:{
+        // 页面标题title
+        title: '主页'
+    }
     },
     {
       path: '/admin',
       name: 'admin',
-      component: admin
+      component: admin,
+      meta:{
+        // 页面标题title
+        title: '后台登陆'
+    }
     },
     {
       path: '/serve',
       name: 'serve',
-      component: serve
+      component: serve,
+      meta:{
+        // 页面标题title
+        title: '后台'
+    }
     },
   ]
 })
